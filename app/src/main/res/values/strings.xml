@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">toDoList</string>
+    <string name="activity_save">Save</string>
+    <string name="activity_open">Open</string>
+</resources>

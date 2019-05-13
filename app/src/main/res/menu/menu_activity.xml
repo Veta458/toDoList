@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".createTask">
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_check_black_24dp_save"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/activity_save"/>
+
+    <item
+        android:id="@+id/action_open"
+        android:icon="@drawable/ic_drafts_black_24dp_open"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/activity_open"/>
+
+</menu>
